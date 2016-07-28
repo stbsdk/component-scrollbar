@@ -1,0 +1,24 @@
+/* spa-component-scrollbar: release */
+.component.scrollBar {
+    display: inline-block;
+    height: 100%;
+    width: 8px;
+    vertical-align: bottom;
+    background-color: #bbb; }
+    .component.scrollBar .thumb {
+        display: block;
+        width: 8px;
+        min-height: 8px;
+        background-color: #aaa; }
+        .component.scrollBar .thumb.hidden {
+            display: none; }
+
+.component.scrollBar.horizontal {
+    display: block;
+    height: 8px;
+    width: 100%; }
+    .component.scrollBar.horizontal .thumb {
+        display: inline-block;
+        vertical-align: top;
+        height: 8px;
+        min-width: 8px; }
