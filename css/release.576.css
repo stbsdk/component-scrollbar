@@ -1,24 +1,26 @@
-/* spa-component-scrollbar: release */
-.component.scrollBar {
+.stb-component-scrollbar {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     display: inline-block;
     height: 100%;
     width: 4px;
     vertical-align: bottom;
     background-color: #bbb; }
-    .component.scrollBar .thumb {
+    .stb-component-scrollbar.hidden {
+        display: none; }
+    .stb-component-scrollbar .thumb {
         display: block;
         width: 4px;
         min-height: 4px;
         background-color: #aaa; }
-        .component.scrollBar .thumb.hidden {
+        .stb-component-scrollbar .thumb.hidden {
             display: none; }
-
-.component.scrollBar.horizontal {
-    display: block;
-    height: 4.8px;
-    width: 100%; }
-    .component.scrollBar.horizontal .thumb {
-        display: inline-block;
-        vertical-align: top;
+    .stb-component-scrollbar.horizontal {
+        display: block;
         height: 4.8px;
-        min-width: 4.8px; }
+        width: 100%; }
+        .stb-component-scrollbar.horizontal .thumb {
+            display: inline-block;
+            vertical-align: top;
+            height: 4.8px;
+            min-width: 4.8px; }

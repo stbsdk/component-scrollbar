@@ -1,4 +1,14 @@
 // @license The MIT License (MIT)
 // @copyright Stanislav Kalashnik <darkpark.main@gmail.com>
 
-@import "../node_modules/spa-component-scrollbar/sass/main";
+@import "../node_modules/spa-component-scrollbar/sass/body";
+@import "../node_modules/stb-component/sass/main";
+
+.stb-component-scrollbar {
+    @include stb-component-release;
+    @include spa-component-scrollbar;
+
+    @if $DEVELOP {
+        @include stb-component-develop;
+    }
+}
