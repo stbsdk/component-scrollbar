@@ -20,7 +20,7 @@
         "spa-component-scrollbar": "spasdk/component-scrollbar"
     },
     "devDependencies": {
-        "eslint": "2.*.*",
+        "eslint": "3.*.*",
         "stb-component": "stbsdk/component",
         "stb-eslint-config": "stbsdk/eslint-config"
     },
