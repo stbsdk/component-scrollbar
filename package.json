@@ -17,13 +17,12 @@
         "jsdoc": "jsdoc --destination docs *.js readme.md"
     },
     "dependencies": {
-        "spa-component-scrollbar": "1.*.*"
+        "spa-component-scrollbar": "^1.0.0"
     },
     "devDependencies": {
-        "eslint": "4.*.*",
-        "jsdoc": "3.*.*",
-        "stb-component": "1.*.*",
-        "stb-eslint-config": "1.*.*"
+        "jsdoc": "^3.5.5",
+        "stb-component": "^1.4.0",
+        "stb-eslint": "^1.0.0"
     },
     "keywords": [
         "stb",
